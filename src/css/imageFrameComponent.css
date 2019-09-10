@@ -1,0 +1,38 @@
+.frame-border {
+  border-radius: 15px;
+  overflow: hidden;
+  float: left;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.frame-border .hover {
+  background-color: #000;
+  opacity: 0.6;
+  width: 200px;
+  height: 170px;
+  position: relative;
+  display: none;
+  top: -205px;
+}
+.frame-border .hover img {
+  position: relative;
+  left: 75px;
+  top: 75px;
+}
+
+.frame-text {
+  background-color: #521805;
+  font-weight: bolder;
+  position: relative;
+  bottom: 205px;
+  color: white;
+  width: 200px;
+  font-size: 14px;
+  height: 30px;
+  text-align: center;
+  z-index: 10;
+}
